@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>THE BRICK MANAGEMENT</title>
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/wingcss"/>
+    <script src="https://use.fontawesome.com/f0542eca07.js"></script>
+    <link rel="stylesheet" href="/css/coming-soon.css">
+
+  </head>
+  <body>
+
+  <div class="coming-soon vertical align" > <!-- main container div -->
+      <div id="logo" class="center"> <!-- logo div -->
+        <%= image_tag ("logo-cs.png") %>
+      </div>
+
+
+  <div id="about-us" class="text-center">
+    <p id="intro">THE BRICK MANAGEMENT IS A NEW WORLDWIDE MOTHER AGENCY BASED ON THE PHILOSOPHY OF COMMITTING TO MODELS AND THEIR FUTURES. WITH A PERSONALIZED APPROACH TO DEVELOPMENT, MANAGEMENT AND PLACEMENT, THE BRICK MANAGEMENT BUILDS A MODEL’S CAREER FROM THE FOUNDATION UP. IF YOU ARE INTERESTED IN BECOMING A PART OF THE BRICK MANAGEMENT FAMILY, PLEASE USE THE FORM BELOW TO SUBMIT YOUR INFORMATION TO OUR SCOUTS.</p>
+  </div>
+
+
+
+  <div id="form"> <!-- entire form div -->
+    <div class="row text-center"> <!--first row div -->
+      <div class="col center" id="form-cols"> <!-- column -->
+        <label>NAME:</label>
+        <input id="user-input" type="text" placeholder="NAME"/>
+      </div>
+      <div class="col center" id="form-cols"> <!-- column -->
+        <label>AGE:</label>
+        <input id="user-input" type="text" placeholder="AGE"/>
+      </div> <!-- end col div -->
+    </div> <!-- end second row div -->
+
+    <div class="row center"> <!--second row div -->
+      <div class="col center" id="form-cols">
+        <label>EMAIL:</label>
+        <input id="user-input" type="email" placeholder="EMAIL"/>
+      </div>
+      <div class="col center" id="form-cols">
+        <label>PHONE:</label>
+        <input id="user-input" type="text" placeholder="PHONE NUMBER"/>
+      </div> <!-- end col div -->
+    </div> <!-- end second row div -->
+
+    <div class="row center"> <!--third row div -->
+      <div class="col center" id="form-cols">
+        <label>CITY:</label>
+        <input id="user-input" type="text" placeholder="CITY"/>
+      </div>
+      <div class="col center" id="form-cols">
+        <label>HEIGHT:</label>
+        <input id="user-input" type="text" placeholder="HEIGHT"/>
+      </div>
+    </div>
+
+  <div class="row center">
+    <div class="col center" id="form-cols">
+      <textarea class='comments' id="user-input-static" placeholder="HOW DID YOU HEAR ABOUT US"></textarea>
+    </div>
+
+    <div class="fileUpload col center">
+        <span id="user-input">SUBMIT A PHOTO OF YOU:</span>
+        <input id="no-show" name="myFile" type="file">
+    </div>
+
+  </div>
+
+  <div class="row center">
+    <div class="col center" id="form-cols">
+      <input id="user-input-check" type="checkbox" name="terms" value="terms">I have read and accept the <%= link_to "Application Rules & the Terms and Conditions.", "/Sub_TermsWord.pdf", target: :_blank %>
+    </div>
+  </div>
+
+
+
+
+  <div class="row">
+    <div class="col center" id="form-cols">
+      <input id="user-input-static" type="submit" value="Submit" >
+    </div>
+  </div>
+
+
+    </div> <!-- end form div -->
+
+  <div id="icons" class="center">
+    <a href="https://www.instagram.com/thebrickmgmt/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/thebrickmgmt/" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/thebrickmgmt" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/company/the-brick-management/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+    <!-- <a href="info@thebrickmgmt.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a> -->
+  </div>
+
+</div> <!-- end main container div -->
+
+
+
+
+
+  </body>
+</html>
